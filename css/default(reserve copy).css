@@ -1,0 +1,254 @@
+﻿body {
+	/* Раскомментируйте это, чтобы включить прокрутку и масштабирование
+  действие касания: операция;
+  */
+	margin: 0;
+}
+.subheader-panel {
+    background-color: #9bb7c7;
+    text-align: center;
+    height: 60px;
+    width: auto;
+    margin: 30px 0;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.top-panel {
+    background-color: #3bbdfb;
+    height: 40px;
+    width: auto;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.top-info-block {
+    border-bottom: 1px solid;
+    border-color: #fff;
+}
+.top-info-block snap {
+    width: auto;
+    height: 18px;
+}
+.Logo {
+	margin-top: 50px;
+	padding-top: 20px;
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+	.Logo img {
+		width: 100%;
+		height: auto;
+	}
+.top-image {
+    display:block;
+}
+
+	.top-image img {
+		height: auto;
+		width: 100%;
+	}
+
+section
+{
+	margin:30px 0;
+}
+.service-img img ,
+.service-img:hover span
+{
+	border-radius: 10%;
+}
+.service-img img {
+	height: 250px;
+	width: 250px;
+}
+.service-img span{
+	position: absolute;
+	background: #3bbdfb;
+	top: 0;
+	left: 15px;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	-ms-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+	width: 250px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: tahoma;
+}
+.service-img:hover span{
+	opacity: 0.8;
+	background: #3bbdfb;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.comment_img img
+{
+    width: 95%;
+    height: auto;
+}
+.comment_text {
+    text-align: right;
+}
+.comment-content{
+	display:block;
+	height: 100%;
+	padding: 20px;
+}
+.comment-author {
+	display:block;
+	position:absolute;
+	margin-top:40px;
+	margin-right:40px;
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    color: #bfbfbf;
+    font-style: italic;
+}
+
+.info-company-block {
+    text-align: center;
+    width:100%;
+    height: auto;
+    display: block;
+}
+.about_company {
+    font-size: 20px;
+    margin: 60px 0px;
+}
+
+.info-company {
+    text-align: left;
+    font-size: 20px;
+    margin: 50px;
+}
+    .info-company p{
+        display: block;
+        text-align: left;
+    }
+    .info-company img {
+        display: block;
+        margin-top: 10px;
+    }
+.information {
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+.important-info{
+	background-color: #fff;
+	opacity: 1;
+	width: 95%;
+	height: 95%;
+	border-radius: 100%;
+	border: 5px solid #9bb7c7;
+	text-align: center;
+	overflow: none;
+	-webkit-transition: all .1s;
+	-o-transition: all .1s;
+	transition: all .1s;
+	cursor:pointer;
+	margin-left: 35px;
+}
+.contacts-buttons{
+	text-align:center;
+
+}
+.important-info span{
+	color: #3bbdfb;
+	font-size: 30px;
+	top: 25px;
+}
+.important-info:hover{
+	border: 6px solid #00628b;
+}
+.contacts-buttons h8{
+	font-size: 11pt;
+	text-align: center;
+	font-weight: bold;
+}
+.contacts-buttons p{
+	font-size: 11pt;
+	text-align: center;
+	font-weight: bold;
+	background-color: #bfbfbf;
+	color: #000;
+	border: 2px solid grey;
+	opacity: 0.7;
+}
+.call{
+	margin-top: 50px;
+	text-align: center;
+}
+.company-panel-news {
+    text-align: left;
+}
+.news_background img {
+    border: solid 1px grey;
+    height: 100%;
+    width: auto;
+}
+.date-block {
+    background-color: #fff;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    bottom: 130px;
+    position: relative;
+}
+.news-text {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+    left: 220px;
+    height: auto;
+    width: 120px;
+}
+.news-text span {
+    color: #3bbdfb;
+}
+.our_teammates-panel {
+    background-color: #9bb7c7;
+    text-align: center;
+    height: 60px;
+    width: auto;
+    margin: 5px 0;
+    padding: 10px 0;
+    font-size: 30px;
+}
+.banks-icon img {
+    height: 200px;
+    width: 200px;
+    border-bottom: 1px solid #e0dada;
+}
+.footer {
+    height: 80px;
+    width: auto;
+    background-color: #161616;
+    margin-top: 70px;
+}

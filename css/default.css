@@ -1,0 +1,352 @@
+﻿body {
+	/* Раскомментируйте это, чтобы включить прокрутку и масштабирование
+  действие касания: операция;
+  */
+    background-color: #efefef;
+	margin: 0;
+}
+h1{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+h1 span{
+    color: #2a87bf;
+}
+h2{
+    font-family: tahoma;
+    color: #effeff;
+    font-size: 50px;
+}
+#myCarousel , .map{
+    margin-top: 50px;
+}
+.subheader-panel {
+    background-color: none;
+    text-align: center;
+    height: 60px;
+    width: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+                            /*navbar css & Logo*/
+.nav>li>a:focus{
+    background-color: #bfbfbf;
+}
+.nav>li>a{
+    color: #000;
+}
+.nav li{
+    margin-right: 10px;
+    color: #000;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.nav li a:hover, .nav li.active a{
+    border-bottom: 1px solid #000;
+    background-color: #effeff;
+    color: #009fe3;
+}
+.top-panel {
+    background-color: #bfbfbf;
+    opacity: 0.9;
+    height: 80px;
+    width: auto;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+.top-panel-logo {
+    text-align: left;
+}
+.top-panel-logo img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    min-height: 50px;
+}
+.navbar-buttons{
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 50px;
+    height: 40px;
+    width: auto;
+}
+.top-info-block {
+    display: flex;
+    justify-content: center;
+	flex-direction: column;
+    font-size: 20px;
+}
+.background-img-color {
+	position: absolute;
+	background: #fff;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 676px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.background-img img {
+	width: 100%;
+	height: auto;
+}
+.Logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 200px;
+	display: block;
+	text-align: center;
+	z-index: 10;
+}
+
+	.Logo img {
+		width: 100%;
+		height: auto;
+	}
+.top-image {
+    display:block;
+}
+
+	.top-image img {
+		height: auto;
+		width: 100%;
+	}
+section
+{
+	margin:30px 30px;
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 0 0 3px #000;
+}
+                    /*service css*/
+.service-img img ,
+.service-img:hover span
+{
+	border-radius: 10%;
+}
+.service-img {
+    margin-top: 50px;
+}
+.service-img img {
+	height: 250px;
+	width: 250px;
+}
+.service-img span{
+	position: absolute;
+	background: #3bbdfb;
+	top: 0;
+	left: 15px;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	-ms-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+	width: 250px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: tahoma;
+}
+.service-img:hover span{
+	opacity: 0.8;
+	background: #3bbdfb;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+                            /*comment css*/
+.comment_img img
+{
+    width: 95%;
+    height: auto;
+}
+.comment_text {
+    text-align: right;
+}
+.comment-content{
+	display:block;
+	height: 100%;
+	padding: 20px;
+}
+.comment-author {
+	display:block;
+	position:absolute;
+	margin-top:40px;
+	margin-right:40px;
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    color: #bfbfbf;
+    font-style: italic;
+}
+                            /*information about company css*/
+.info-company-block {
+    text-align: center;
+    width:100%;
+    height: auto;
+    display: block;
+}
+.about_company {
+    font-size: 20px;
+    margin: 60px 0px;
+}
+                            /*contakts buttons css*/
+.info-company {
+    text-align: left;
+    font-size: 20px;
+}
+    }
+    .info-company img {
+        display: block;
+        margin-top: 10px;
+    }
+.information,
+.call-button {
+	width: 100px;
+	height: 100px;
+	position: relative;
+    margin-top: 20px;
+}
+.important-info,
+.button-icon{
+	background-color: #fff;
+	opacity: 1;
+	width: 95%;
+	height: 95%;
+	border-radius: 100%;
+	border: 5px solid #9bb7c7;
+	text-align: center;
+	overflow: none;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+	cursor:pointer;
+	margin-left: 35px;
+}
+.contacts-buttons{
+	left: 55px;
+    position:relative;
+}
+.important-info span,
+.button-icon span{
+	color: #3bbdfb;
+	font-size: 30px;
+	top: 25px;
+}
+.important-info:hover,
+.button-icon:hover{
+	border: 6px solid #00628b;
+    background-color: #effeff;
+}
+.important-info-block,
+.button-content{
+    width: 100%;
+    height: auto;
+    display: block;
+    color: #000;
+    margin: 0 0 0;
+    margin-top: 10px;
+    padding: 20px;
+}
+.important-info-block,
+#e-mail_content{
+    font-size: 30pt;
+    text-align: center;
+    font-weight: bold;
+}
+#e-mail_content j{
+    font-family: 'Raleway', sans-serif;
+}
+.important-info-block p{
+    font-family: 'Roboto', sans-serif;
+}
+.important-info-block span,
+.phone span,
+.name span,
+.e-mail span{
+    color: #2a87bf;
+}
+.phone,
+.name,
+.e-mail{
+    margin-top: 20px;
+}
+.call-button {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.contacts-buttons{
+    text-align: center;
+}
+.contacts-buttons h8{
+	font-size: 11pt;
+	text-align: center;
+	font-weight: bold;
+}
+.send-btn{
+
+}
+                            /*news css*/
+.company-panel-news {
+    text-align: left;
+}
+.news_background img {
+    border: solid 1px grey;
+    height: 100%;
+    width: auto;
+}
+.date-block {
+    background-color: #fff;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    bottom: 130px;
+    position: relative;
+}
+.news-text {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+    left: 220px;
+    height: auto;
+    width: 120px;
+}
+.news-text span {
+    color: #3bbdfb;
+}
+                                /*partners css*/
+.banks-icon img {
+    height: 200px;
+    width: 200px;
+    border-bottom: 1px solid #e0dada;
+}
+                                /*past page css*/
+.footer {
+    height: 80px;
+    width: auto;
+    background-color: #161616;
+    margin-top: 70px;
+}
